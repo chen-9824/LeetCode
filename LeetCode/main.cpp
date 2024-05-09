@@ -63,6 +63,12 @@ using namespace std;
 #include "617.h"
 #include "700.h"
 #include "98.h"
+#include "530.h"
+#include "501.h"
+#include "236.h"
+#include "235.h"
+#include "701.h"
+#include "450.h"
 #include <vector>
 
 using namespace std;
