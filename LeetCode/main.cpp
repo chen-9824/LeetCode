@@ -69,12 +69,40 @@ using namespace std;
 #include "235.h"
 #include "701.h"
 #include "450.h"
+#include "669.h"
+#include "108.h"
+#include "538.h"
+#include "77.h"
+#include "216.h"
+#include "17.h"
+#include "39.h"
+#include "40.h"
+#include "131.h"
+#include "93.h"
+#include "78.h"
+#include "90.h"
+#include "491.h"
+#include "46.h"
+#include "47.h"
+#include "332.h"
+#include "51.h"
 #include <vector>
 
 using namespace std;
 
 void call_Bian_Li() {
 
+}
+
+void call_491() {
+    Solution_491 test;
+    vector<int> path{4,4,3,2,1};
+    test.findSubsequences(path);
+}
+
+void call_77() {
+    Solution_77 test;
+    test.combine(2 ,1);
 }
 
 void call_101() {
@@ -270,7 +298,9 @@ int main() {
     //call_102();
     //call_107();
     //call_515();
-    call_101();
+    //call_101();
+    //call_77();
+    call_491();
     cout << "Hello World!" << endl;
     return 0;
 }
