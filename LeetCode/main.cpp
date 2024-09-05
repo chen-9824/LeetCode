@@ -86,12 +86,24 @@ using namespace std;
 #include "47.h"
 #include "332.h"
 #include "51.h"
+#include "3142.h"
+#include "3153.h"
+#include "2806.h"
+#include "2860.h"
+#include "3174.h"
 #include <vector>
 
 using namespace std;
 
 void call_Bian_Li() {
 
+}
+
+void call_2860() {
+    Solution_2860 test;
+    vector<int> stu_1{1, 1};
+    vector<int> stu_2{9,48,57,45,21,8,60,36,11,54,13,58,77,51,28,37,20,38,33,38,53,70,66,9,48,59,35,56,44,54,10,70,58,32,12,64,65,13,45,85,59,55,29,76,72,57,89,46,10,42,34,44,80,41,87,61,30,49,50,63,65,76,43,1,52,54,36,87,55,88,86,81,67,26,87,88,38,88,45,9,34,25,12,34,29,82,59,80,87,73};
+    test.countWays(stu_1);
 }
 
 void call_491() {
@@ -300,7 +312,8 @@ int main() {
     //call_515();
     //call_101();
     //call_77();
-    call_491();
+    //call_491();
+    call_2860();
     cout << "Hello World!" << endl;
     return 0;
 }
