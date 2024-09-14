@@ -18,6 +18,7 @@ using namespace std;
 #include "111.h"
 #include "112.h"
 #include "113.h"
+#include "1143.h"
 #include "116.h"
 #include "117.h"
 #include "131.h"
@@ -44,15 +45,18 @@ using namespace std;
 #include "235.h"
 #include "236.h"
 #include "239.h"
+#include "2390.h"
 #include "24.h"
 #include "242.h"
 #include "257.h"
 #include "27.h"
 #include "2806.h"
 #include "2860.h"
+#include "300.h"
 #include "3142.h"
 #include "3153.h"
 #include "3174.h"
+#include "3176.h"
 #include "332.h"
 #include "344.h"
 #include "347.h"
@@ -68,6 +72,7 @@ using namespace std;
 #include "47.h"
 #include "491.h"
 #include "501.h"
+#include "509.h"
 #include "51.h"
 #include "513.h"
 #include "515.h"
@@ -79,10 +84,12 @@ using namespace std;
 #include "637.h"
 #include "654.h"
 #include "669.h"
+#include "674.h"
 #include "700.h"
 #include "701.h"
 #include "704.h"
 #include "707.h"
+#include "718.h"
 #include "77.h"
 #include "78.h"
 #include "90.h"
@@ -97,6 +104,18 @@ using namespace std;
 using namespace std;
 
 void call_Bian_Li() {}
+
+void call_718() {
+  Solution_718 test;
+  vector<int> v_1 = {1, 2, 3, 2, 1};
+  vector<int> v_2 = {3, 2, 1, 4, 7};
+  test.findLength(v_1, v_2);
+}
+
+void call_509() {
+  Solution_509 test;
+  test.fib(10);
+}
 
 void call_2860() {
   Solution_2860 test;
@@ -312,7 +331,9 @@ int main() {
   // call_101();
   // call_77();
   // call_491();
-  call_2860();
+  // call_2860();
+  // call_509();
+  call_718();
   cout << "Hello World!" << endl;
   return 0;
 }
