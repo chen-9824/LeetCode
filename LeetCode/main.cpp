@@ -47,6 +47,7 @@ using namespace std;
 #include "239.h"
 #include "2390.h"
 #include "24.h"
+#include "2414.h"
 #include "242.h"
 #include "257.h"
 #include "27.h"
@@ -104,6 +105,19 @@ using namespace std;
 using namespace std;
 
 void call_Bian_Li() {}
+
+void call_2414() {
+  Solution_2414 test;
+  string v_1 = "abcde";
+  test.longestContinuousSubstring(v_1);
+}
+
+void call_1143() {
+  Solution_1143 test;
+  string v_1 = "ezupkr";
+  string v_2 = "ubmrapg";
+  test.longestCommonSubsequence(v_1, v_2);
+}
 
 void call_718() {
   Solution_718 test;
@@ -333,7 +347,9 @@ int main() {
   // call_491();
   // call_2860();
   // call_509();
-  call_718();
+  // call_718();
+  // call_1143();
+  call_2414();
   cout << "Hello World!" << endl;
   return 0;
 }

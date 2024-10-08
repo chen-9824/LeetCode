@@ -14,10 +14,6 @@
 
 class Solution_3153 {
  public:
-  long long sumDigitDifferences(vector<int>& nums) {
-
-
-
-  }
+  long long sumDigitDifferences(vector<int>& nums) { return 0; }
 };
-#endif //LEETCODE_INCLUDE_3153_H_
+#endif  // LEETCODE_INCLUDE_3153_H_
