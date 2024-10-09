@@ -23,6 +23,7 @@ using namespace std;
 #include "117.h"
 #include "131.h"
 #include "142.h"
+#include "1436.h"
 #include "144.h"
 #include "145.h"
 #include "15.h"
@@ -101,7 +102,6 @@ using namespace std;
 #include "Bian_Li.h"
 #include "kama_54.h"
 #include "kama_55.h"
-#include "1436.h"
 
 using namespace std;
 
